@@ -1,0 +1,13 @@
+.Single-User{
+    border:2px solid red;
+    width: 300px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.User-Container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+
+}
